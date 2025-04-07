@@ -1,0 +1,57 @@
+# Entornos virtuales
+.venv
+venv
+env
+ENV
+virtualenv
+__pycache__/
+*.pyc
+*.pyd
+
+# Archivos de construcción y distribución
+build/
+dist/
+sdist/
+*.egg-info/
+MANIFEST
+*.whl
+
+# Archivos específicos del IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos temporales y del sistema operativo
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.DS_Store
+Thumbs.db
+
+
+# Archivos de pruebas (si no están en un directorio dedicado)
+test_*.py
+*_test.py
+
+# Archivos de linting y formatting (opcional)
+.flake8
+.pylintrc
+.editorconfig
+.prettierrc.json
+.prettierignore
+
+# Archivos de secretos y configuración local
+*.ini
+*.cfg
+*.conf
+*.env
+.env
+local_settings.py
+secrets.json
+config.yaml
+
+# Archivos de registro
+*.log
+logs/
